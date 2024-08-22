@@ -14,5 +14,8 @@ namespace Common.Settings
         string GenerateIndexController { get; }
         string GenerateListController { get; }
         string GeneratePDFController { get; }
+
+        string FoodPath { get; }
+        string FilesPath { get; }
     }
 }
